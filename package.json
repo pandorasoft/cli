@@ -4,7 +4,7 @@
   "version": "1.4.0",
   "description": "A CLI for the hyper:// space network.",
   "bin": {
-    "hyp": "./bin/hyp.js"
+    "hyp": "bin/hyp.js"
   },
   "scripts": {
     "start": "node ./bin/hyp",
