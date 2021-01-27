@@ -107,7 +107,7 @@ function wrapCommand (obj) {
       }
       await innerCommand(...args)
     } catch (err) {
-      console.error('Error:', err.message)
+      console.error(JSON.stringify({'event':err.message}));
       process.exit(1)
     }
   }
