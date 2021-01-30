@@ -13,6 +13,8 @@ import * as hyper from '../lib/hyper/index.js'
 import info from '../lib/commands/info.js'
 import create from '../lib/commands/create.js'
 import seed from '../lib/commands/seed.js'
+import watcher from '../lib/commands/watcher.js'
+import retrier from '../lib/commands/retrier.js'
 import unseed from '../lib/commands/unseed.js'
 import beam from '../lib/commands/beam.js'
 
@@ -43,9 +45,11 @@ import usage from '../lib/usage.js'
 const commands = {
   info,
   seed,
+  watcher,
   unseed,
   create,
   beam,
+  retrier,
 
   driveLs,
   driveCat,
